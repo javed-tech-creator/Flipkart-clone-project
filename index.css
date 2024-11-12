@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(223, 222, 222);
+}
+.container-fluid{
+   margin-top: 80px; ;
+}
+.nav{
+    height: 70px ;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position:fixed;
+    top: 0px;
+    z-index: 1000;
+  
+}
+.nav button{
+    outline: none;
+    border: none;
+}
+
+.nav a:hover{
+    color: red;
+}
+
+.block{
+    display: none;
+
+}
+
+
+.input{
+    height: 40px;
+    width: 600px;
+    background-color: rgb(227, 235, 242);
+    border-radius: 10px;
+}
+input{
+    height: 100%;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 10px 0 0 10px;
+    background: transparent;
+
+}
+.input i{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    background-color: whitesmoke;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+
+}
+
+.car1{
+    height: 90%;
+    justify-items: center;
+}
+.card{
+    height: 100px;
+    width: 100px;
+    /* border-radius: none; */
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.box1{
+
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    
+
+}
+.carousel {
+    width: 100%;
+    height: fit-content;
+}
+
+.box2{
+    margin-top: 20px;
+    width: 80%;
+    height: 350px;
+    background-color: whitesmoke;
+    padding: 20px;
+
+}
+
+.flex{
+    display: flex;
+    gap: 1%;
+   
+}
+.box-2{
+    display: flex;
+    /* gap: 5px; */
+    margin-top: 10px;
+   
+}
+.box-0{
+    height:360px;
+    width: 19%;
+    margin-top: 15px;
+
+}
+.img1{
+    height:100%;
+    width: 100%;
+}
+
+
+/* ssss */
+
+.product-card {
+    height:180px ;
+    width: 170px;
+    text-align: center;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 8px;
+    padding: 15px;
+    transition: box-shadow 0.4s ease;
+}
+
+.product-card img {
+    mix-blend-mode: multiply;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: all ease-in-out 0.4s ;    
+}
+.product-card:hover img{
+
+transform: scale(1.1);
+
+}
+
+
+.product-card:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-title {
+    font-weight:bold;
+    margin: 5px 0;
+}
+
+.product-price {
+    color: #007bff;
+    font-weight: 500;
+}
+
+.banner-box{
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+}
+.banner-flex{
+    display: flex;
+   justify-content: space-around;
+}
+.banner1 img{
+    height: 200px;
+    
+}
+.banner2 img{
+    height: 200px;
+    
+}
+.banner3 img{
+    height: 200px;
+    
+}
+
+.box-3{
+    margin-top: 20px;
+    width: 100%;
+    height: 350px;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.footer-top{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(31, 30, 30);
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+ 
+}
+.footer-bottom{
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-bottom a{
+    color: whitesmoke;
+    font-size: small;
+    width: fit-content;
+}
+.footer-bottom i{
+    color: rgb(182, 167, 81);
+}
+.footer-items{
+  /* text-align: center; */
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+     
+}
+.footer-items p{
+ color: rgb(142, 142, 142);
+ font-size: 12px;
+ 
+}
+.footer-items a{
+    color: whitesmoke;
+    font-size: 12px;
+    width: fit-content;
+}
+
+.footer-items a:hover , .footer-bottom a:hover{
+    /* text-decoration: underline; */
+    color:#007bff;
+}
+
+/* Responsive code  */
+
+/* Code Responsive for Desktop Devices (portrait and landscape) */
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+
+    .input{
+      
+        width: 400px; 
+    }
+
+    .input i{
+        padding-left: 10px;
+    }
+    .box{
+        height: 160px;
+        column-gap: 10px;
+        padding-top: 20px;
+    }
+    .car1{
+        height: 100%;
+        width: 100px;
+        text-align: center ;
+   
+       
+    }
+
+    .card{
+        height: 70px;
+        width: 70px;
+
+        
+    }
+
+    .product-card {
+        height:150px;
+        width: 140px;
+    
+    }
+    .product-card-clone {
+        height:140px;
+        width: fit-content;
+    
+    }
+    .box2{
+        height: 300px;
+    }
+    .box-0{
+        height: 310px;
+    }
+    .banner-box{
+        height: fit-content;
+    }
+    .banner{
+        height: 80px;
+    }
+    .banner-flex{
+        height: 220px;
+    }
+    .box-3 {
+        height: 320px;
+    }
+    
+}
+
+/* Code Responsive for Tablet Devices (portrait and landscape)  */
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+
+  .input{
+      
+        width: 280px; 
+    }
+    .input i{
+        padding-left: 3px;
+    }
+    .box{
+        height: 140px;
+        column-gap: 5px;
+    }
+    .car1{
+        height: 100%;
+        width: 100px;
+        text-align: center ;
+        padding-top: 20px;
+    }
+    .icon{
+        width: 120px;
+    }
+
+    .card{
+        height: 50px;
+        width: 50px;
+
+        
+    }
+    .product-card {
+        height:100px;
+        width: 90px;
+    
+    }
+    .product-card-clone {
+        height:90px;
+        width: fit-content;
+    
+    }
+
+    .box2{
+        height: 250px;
+        width: 100%;
+        position: relative;
+    }
+    .box-0{
+        height: 0px;
+        width: 0px;
+        position: absolute;
+    }
+
+    .product-title {
+        font-weight:bold;
+        margin: 5px 0;
+        font-size: small;
+    }
+    
+    .product-price {
+        color: #007bff;
+        font-weight: 500;
+        font-size: small;
+    }
+
+    .box-3 {
+        height: 270px;
+    }
+
+    .banner-box{
+        height: 250px;
+    }
+    .banner{
+        height: 100px;
+    }
+    .banner1 img{
+        height: 150px;
+        
+    }
+    .banner2 img{
+        height: 150px;
+        
+    }
+    .banner3 img{
+        height: 150px;
+        
+    }
+    
+    .footer-top {
+        height: 360px; 
+       
+    }
+    .footer-top .row{
+        row-gap:15px;
+    }
+}
+
+/* Code Responsive for Mobile Devices ( landscape)  */
+
+@media only screen and (min-width:575px) and (max-width:768px){
+
+.input{
+      
+        width: 250px; 
+       
+    }
+    input{
+        height: 100%;
+        width: 80%;
+        padding-left: 5px;
+       
+    
+    }
+
+    .input i{
+       padding-left: 5px;
+        /* font-size: 15px; */
+    }
+
+    .nav{
+      
+        justify-content: space-between;
+    }
+    .items-block{
+        display: none;
+
+    }
+    .icon{
+        width: 100px;
+    }
+    .block{
+        display: block;
+        font-size: larger;
+       margin-right: 15px;
+    }
+  .nav-item a .btn{
+    margin-left:-12px ;
+  }
+  .navbar-nav{
+    gap: 20px;
+  }
+
+  .box{
+    height: 100px;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.car1{
+    height: 100%;
+    width: 50px;
+    text-align: center ;
+    padding-top: 10px;
+}
+.car1 p{
+    font-size: 10px;
+}
+
+.card{
+    height: 50px;
+    width: 50px;
+
+    
+}
+.box2{
+    width: 100%;
+    height:250px ;
+}
+.box-2{
+    justify-content: space-between;
+}
+.box-0{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+}
+.product-card {
+    height:100px;
+    width: 90px;
+
+}
+.product-card-clone {
+    height:80px;
+    width: fit-content;
+
+}
+.product-title {
+    font-weight:100;
+    margin: 3px 0;
+    font-size: 10px;
+}
+
+.product-price {
+    color: #007bff;
+    font-weight: 300;
+    font-size: 10px;
+}
+.banner-box{
+    height: fit-content;
+}
+.banner{
+
+    height: 150px;
+}
+.banner1 img{
+    height: 150px;
+    
+}
+.banner2 img{
+    height: 150px;
+    
+}
+.banner3 img{
+    height: 150px;
+    
+}
+.box-3{
+    height: 220px;
+}
+.box-3 h5{
+    font-size: 20px;
+}
+
+.footer-top {
+    height: 400px; 
+   
+}
+.footer-top .row{
+    row-gap:20px;
+}
+
+}
+
+/* Responsive for mobile portrait */
+
+@media only screen and (max-width:575px){
+
+.input{
+      
+        width: 200px; 
+       
+    }
+    input{
+        height: 100%;
+        width: 80%;
+        padding-left: 5px;
+       
+    
+    }
+
+    .input i{
+       padding-left: 5px;
+        /* font-size: 15px; */
+    }
+
+    .nav{
+      
+        justify-content: space-between;
+    }
+    .items-block{
+        display: none;
+
+    }
+
+    .Mobile-block{
+        display: none;
+
+    }
+
+    .icon{
+        width: 100px;
+    }
+    .block{
+        display: block;
+        font-size: larger;
+       margin-right: 15px;
+    }
+  .nav-item a .btn{
+    margin-left:-12px ;
+  }
+  .navbar-nav{
+    gap: 20px;
+  }
+
+  .box{
+    height: 100px;
+    column-gap: 10px;
+    justify-content: space-between;
+}
+.car1{
+    height: 100%;
+    width: 50px;
+    text-align: center ;
+    padding-top: 10px;
+}
+.car1 p{
+    font-size: 10px;
+}
+
+.card{
+    height: 50px;
+    width: 50px;
+
+    
+}
+.box2{
+    width: 100%;
+    height:250px ;
+}
+.box-2{
+    justify-content: space-between;
+}
+.box-0{
+    height: 0px;
+    width: 0px;
+    position: absolute;
+}
+.product-card {
+    height:80px;
+    width: 70px;
+
+}
+.product-card-clone {
+    height:80px;
+    width: fit-content;
+
+}
+.product-title {
+    font-weight:100;
+    margin: 3px 0;
+    font-size: 10px;
+}
+
+.product-price {
+    color: #007bff;
+    font-weight: 300;
+    font-size: 10px;
+}
+.banner-box{
+    height: fit-content;
+}
+.box-3{
+    height: 220px;
+}
+.box-3 h5{
+    font-size: 20px;
+}
+
+
+.banner{
+
+    height: 100px;
+}
+.banner1 img{
+    height: 100px;
+    
+}
+.banner2 img{
+    height: 100px;
+    
+}
+.banner3 img{
+    height: 100px;
+    
+}
+.footer-top {
+    height: 600px; 
+   
+}
+.footer-top .row{
+    row-gap:20px;
+}
+.footer-bottom a{
+    font-size: 8px;
+}
+.footer-bottom {
+  
+    justify-content: space-between;
+}
+}
