@@ -93,6 +93,10 @@ a{
     .image{
         width: 100%;
     }
+     .image img {
+       
+        height: 40vh;
+    }
    
 
 }
@@ -105,7 +109,7 @@ a{
 
     }
     .image img{
-        height: 300px;
+         height: 30vh;
         
        
     }
@@ -149,7 +153,7 @@ a{
     }
     .image img{
         
-        height: 50vh;
+        height: 30vh;
     }
     .box2{
         width: 100%;
