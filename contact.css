@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(216, 216, 216);
+}
+.nav{
+    height: 60px ;
+    width: 100%;
+    background-color:rgb(82, 129, 200);
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+    align-items: center;
+    position:fixed;
+    top: 0; 
+    z-index: 1000;
+    box-shadow: 0 0 5px 0 rgb(67, 66, 66);
+  
+}
+.nav a{
+    color: whitesmoke;
+     
+    
+}
+.nav a:hover{
+    color: rgb(255, 174, 0);
+}
+.nav1{
+    padding-left: 50px;
+    height: fit-content;
+}
+.nav2{
+    width: 500px;
+    display: flex;
+    justify-content:space-around;
+    padding-right: 30px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+margin-top: 100px;
+}
+.footer-top{
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(31, 30, 30);
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+ 
+}
+.footer-bottom{
+    margin-top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(31, 30, 30);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-bottom a{
+    color: whitesmoke;
+    font-size: small;
+    width: fit-content;
+}
+.footer-bottom i{
+    color: rgb(182, 167, 81);
+}
+.footer-items{
+  /* text-align: center; */
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  
+   
+}
+.footer-items p{
+ color: rgb(142, 142, 142);
+ font-size: 12px;
+ 
+}
+.footer-items a{
+    color: whitesmoke;
+    font-size: 12px;
+    width: fit-content;
+}
+.footer-items a:hover , .footer-bottom a:hover{
+    /* text-decoration: underline; */
+    color:#007bff;
+}
+
+
+/* Responsive code  */
+
+/* Code Responsive for Desktop Devices (portrait and landscape) */
+
+@media only screen and (min-width:1024px) and (max-width:1439px){
+
+    
+}
+
+/* Code Responsive for Tablet Devices (portrait and landscape)  */
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+    .footer-top {
+        height: 360px; 
+       
+    }
+    .footer-top .row{
+        row-gap:15px;
+    }
+
+}
+
+/* Code Responsive for Mobile Devices ( landscape)  */
+
+@media only screen and (min-width:576px) and (max-width:768px){
+    
+.footer-top {
+    height: 400px; 
+   
+}
+.footer-top .row{
+    row-gap:20px;
+}
+.nav2{
+    width: 300px;
+}
+
+}
+
+/* Responsive for mobile portrait */
+
+@media only screen and (max-width:576px){
+    .footer-top {
+        height: 600px; 
+       
+    }
+    .footer-top .row{
+        row-gap:20px;
+    }
+    .footer-bottom a{
+        font-size: 8px;
+    }
+    .footer-bottom {
+      
+        justify-content: space-between;
+    }
+    .block{
+        display: none;
+    }
+
+
+}
